@@ -1,0 +1,98 @@
+/* 全体 */
+body{
+    font-family: "Yu Gothic", sans-serif;
+    background:#f5f7fb;
+    text-align:center;
+    margin:0;
+    padding:20px;
+}
+
+/* タイトル */
+h1{
+    color:#333;
+    margin-bottom:20px;
+}
+
+/* Unit選択 */
+#unitSelect{
+    width:220px;
+    padding:10px;
+    font-size:18px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+/* 単語カード */
+#card{
+    width:90%;
+    max-width:400px;
+    margin:20px auto;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    padding:30px;
+}
+
+/* 英単語 */
+#question{
+    font-size:32px;
+    color:#222;
+    min-height:50px;
+}
+
+/* 日本語 */
+#answer{
+    font-size:24px;
+    color:#1565c0;
+    display:none;
+    margin-top:20px;
+}
+
+/* ボタン */
+.buttons{
+    margin-top:20px;
+}
+
+button{
+    width:160px;
+    padding:15px;
+    margin:10px;
+    border:none;
+    border-radius:12px;
+    background:#4CAF50;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#43a047;
+}
+
+/* スマホ対応 */
+@media(max-width:600px){
+
+    #card{
+        width:95%;
+        padding:20px;
+    }
+
+    #question{
+        font-size:26px;
+    }
+
+    #answer{
+        font-size:20px;
+    }
+
+    button{
+        width:90%;
+        font-size:18px;
+    }
+
+    #unitSelect{
+        width:90%;
+    }
+
+}
