@@ -1,3 +1,4 @@
+console.log(words);
 // 現在の問題番号
 let current = 0;
 
